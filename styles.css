@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+:root{
+    --primary: #153615f3;
+    --text-color : #747070;
+}
+header{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background: var(--primary);
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+    margin-left: 2rem;
+    color: wheat;
+}
+header h1{
+    color: wheat;
+    font-size: 19px;
+}
+header button{
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    background: #eeeeee;
+    color: var(--primary);
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+}
+.main{
+    display: grid;
+    gap: 60px;
+    grid-template-columns: auto auto;
+    padding: 60px;
+}
+.main .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.24);
+}
+.main .text h1{
+    color: black;
+    font-size: 40px;
+    padding-bottom: 2rem;
+}
+.main .text p{
+    color: var(--text-color);
+    line-height: 1.5rem;
+    padding-bottom: 3rem;
+}
+.main .apply a{
+    background: var(--primary);
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.24);
+}
+.mission{
+    display: grid;
+    gap: 60px;
+    grid-template-columns: auto auto;
+    padding: 60px;
+    color: #ffffff;
+    background: black;
+}
+.mission .our-mission .missonText{
+    text-align: center;
+    padding: 1rem;
+    font-size: 30px;
+}
+.missionSub{
+    text-align: center;
+    align-items: center;
+}
+.mission .story h3{
+    font-size: 15px;
+    padding-bottom: 2rem;
+    line-height: 2rem;
+}
+.mission .story .tip{
+    display: flex;
+    
+}
+.mission .story .tip p{
+    /* margin-left: 3rem;
+    font-size: 18px; */
+    font-weight: 800;
+    padding-bottom: 1rem;
+}
+.mission .story .tips{
+    display: flex;
+}
+.mission .story .tips p{
+    margin-left: 3rem;
+    font-size: 12px;
+}
+.expert{
+    display: grid;
+    gap: 80px;
+    grid-template-columns: auto auto;
+    padding: 80px;
+}
+.expert .expertImage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 4px solid white;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.24);
+}
+.expert .guide h1{
+    font-size: 20px;
+    padding-bottom: 1rem;
+}
+.expert .guide .paragraph-1{
+    color: var(--text-color);
+    font-size: 14px;
+    padding-bottom: 2rem;
+}
+.expert .apply a{
+    background: var(--primary);
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.ideas{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: auto auto;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.24);
+}
+.ideas .image img{
+    width: 100%;
+    height: 100%;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+.ideas .idea-tips .tip-1{
+    display: flex;
+    justify-content: space-between;
+    background: whitesmoke;
+    margin-bottom: 3rem;
+    border-radius: 10px;
+}
+.ideas .idea-tips .tip-1 p{
+    padding: 0.5rem;
+    font-size: 16px;
+    font-weight: 700; 
+}
+.services{
+    background: #eee;
+}
+.resume{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: auto auto auto;
+    padding: 40px;
+}
+.services .service-heading{
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
+}
+.services .serviceParagraph{
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
+    line-height: 1.3rem;
+}
+.services .resume .resume-1{
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.24);
+}
+.services .resume .resume-1 img{
+    width: 10%;
+    height: 10%;
+}
+.services .resume .resume-1 .resume-heading{
+    font-size: 20px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.services .resume .resume-1 .resumeParagraph{
+    font-size: 13px;
+    line-height: 1.3rem;
+}
+.services .resume .resume-2{
+    background: var(--primary);
+    border-radius: 10px;
+    padding: 1rem;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.24);
+}
+.services .resume .resume-2 img{
+    width: 10%;
+    height: 10%;
+}
+.services .resume .resume-2 .resume-heading{
+    font-size: 20px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    color: #ffffff;
+}
+.services .resume .resume-2 .resumeParagraph{
+    font-size: 13px;
+    line-height: 1.3rem;
+    color: #ffffff;
+}
+.blog-main{
+    background: rgba(0, 0, 0, 0.24);
+}
+.blog-main .heading{
+    text-align: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+.blog-main .blog{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: auto auto auto;
+    padding: 40px;
+}
+.blog-main .blog .blog-box{
+    background: whitesmoke;
+    border: 4px solid white;
+    border-radius: 10px;
+}
+.blog-main .blog .blog-box img{
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.blog-main .blog .blog-box h1{
+    font-size: 15px;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.blog-main .blog .blog-box p{
+    font-size: 13px;
+    color: var(--text-color);
+    padding: 1rem;
+}
+.news{
+    text-align: center;
+    align-items: center;
+    display: block;
+    background: var(--primary);
+}
+.news .newsletter h1{
+    padding-top: 3rem;
+    color: #ffffff;
+}
+.news .newsletter p{
+    padding-top: 1rem;
+    color: #ffffff;
+}
+.news .links{
+    display: block;
+}
+.news .links input{
+    margin-top: 2rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-right: 4rem;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+    outline: none;
+    border: none;
+}
+.news .links a{
+    background: black;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border-radius: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: auto auto auto auto;
+    padding: 40px;
+}
+.footer .footer-1 h1{
+    font-size: 14px;
+    padding-bottom: 2rem;
+}
+.footer .footer-1 p{
+    font-size: 13px;
+    padding-bottom: 1rem;
+}
+.footer .footer-1 a{
+    text-decoration: none;
+    background: var(--primary);
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+    header nav ul li{
+        display: none;
+    }
+    header button{
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
+        background: #eeeeee;
+        color: var(--primary);
+        font-size: 13px;
+        font-weight: 600;
+        border: none;
+        border-radius: 10px;
+    }
+    .main{
+        display: grid;
+        gap: 40px;
+        grid-template-columns: auto;
+        padding: 40px;
+    }
+    .mission{
+        display: grid;
+        gap: 40px;
+        grid-template-columns: auto;
+        padding: 40px;
+        color: #ffffff;
+        background: black;
+    }
+    .expert{
+        display: grid;
+        gap: 40px;
+        grid-template-columns: auto;
+        padding: 40px;
+    }
+    .ideas{
+        display: grid;
+        gap: 40px;
+        grid-template-columns: auto;
+        padding: 40px;
+        background: rgba(0, 0, 0, 0.24);
+    }
+    .resume{
+        display: grid;
+        gap: 40px;
+        grid-template-columns: auto;
+        padding: 40px;
+    }
+    .blog-main .blog{
+        display: grid;
+        gap: 40px;
+        grid-template-columns: auto;
+        padding: 40px;
+    }
+    .blog-main .heading{
+        text-align: center;
+        align-items: center;
+        padding-top: 3rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .blog-main .blog .blog-box p{
+        font-size: 13px;
+        color: var(--text-color);
+        padding: 0.2rem;
+    }
+    .blog-main .blog .blog-box h1{
+        font-size: 15px;
+        padding-top: 1rem;
+        padding-right: 1rem;
+        padding-left: 0.2rem;
+    }
+    .footer{
+        display: grid;
+        gap: 40px;
+        grid-template-columns: auto;
+        padding: 40px;
+    }
+}
